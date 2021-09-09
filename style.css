@@ -1,0 +1,63 @@
+/* Global */
+body {
+    background: #ffffff;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.copy {
+    opacity: 0.6;
+    text-align: center;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Main */
+main {
+    text-align: center;
+}
+
+input {
+    margin: 1rem;
+}
+
+/* Back to top */
+aside {
+    background: red;
+    border-radius: 5rem;
+
+    padding: 10px;
+    margin: 5px;
+    left: min(80%, 100%);
+    bottom: 10px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 20;
+}
+
+aside div {
+    padding: 1rem;
+    scroll-behavior: smooth;
+}
+
+/* Display */
+.canvas {
+    width: 500px;
+    margin: auto;
+}
+
+.show {
+    display: block;
+}
